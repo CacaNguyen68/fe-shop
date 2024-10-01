@@ -1,6 +1,8 @@
 :root {
-    --white-color: #fff; /*dinh nghia mau trang*/
-    --black-color: #000; /*dinh nghia mau trang*/
+    --white-color: #fff;
+    /*dinh nghia mau trang*/
+    --black-color: #000;
+    /*dinh nghia mau trang*/
     --text-color: #333;
 }
 
@@ -25,7 +27,17 @@ html {
     width: 100%;
 }
 
-.grid__row{
+.grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
